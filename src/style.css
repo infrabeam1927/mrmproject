@@ -7,14 +7,37 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
 .title {
-    color: #e74c3c;
-    font-size: 3em;
+    color: #ff0000; /* Red color */
+    font-size: 4em;
     text-align: center;
     text-transform: uppercase;
+}
+
+.gallery-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3498db; /* Blue color */
+    border-radius: 5px;
+}
+
+.gallery-button:hover {
+    background-color: #2980b9; /* Darker blue color on hover */
+}
+
+.gallery-title {
+    color: #333333; /* Dark gray color for gallery title */
+    font-size: 2em;
+    text-align: center;
 }
